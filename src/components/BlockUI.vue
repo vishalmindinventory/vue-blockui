@@ -35,8 +35,8 @@ export default {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: lightgray;
-    opacity: 0.5;
+    background-color: #FFFFFF;
+    opacity: 0.8;
     z-index: 9998;
   }
 
@@ -44,17 +44,10 @@ export default {
       z-index: 9999;
       position: fixed;
       display: inline-block;
-      background-color: white;
       padding: 20px 50px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 0;
       left: 50%;
       top: 50%;
-      -ms-transform: translate(-50%,-50%);
-      -moz-transform: translate(-50%,-50%);
-      -webkit-transform: translate(-50%,-50%); 
-      transform: translate(-50%,-50%);
-
       .loading-icon {
             margin-bottom: 8px;
       }
